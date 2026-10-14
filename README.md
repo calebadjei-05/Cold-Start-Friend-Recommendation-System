@@ -6,7 +6,7 @@ A research project that tests whether a time-based relationship score can make f
 
 ## What This Project Is About
 
-Big friend recommendation systems usually work in two steps: first they find candidates, then they rank them. But just because someone is reachable does not mean they are actually a strong or current friend. This is a big problem for cold-start users, who just joined the platform and have almost no history to learn from.
+Large friend recommendation systems usually work in two steps: first they find candidates, then they rank them. But just because someone is reachable does not mean they are actually a strong or current friend. This is a big problem for cold-start users, who just joined the platform and have almost no history to learn from.
 
 This project builds two models and compares them:
 
