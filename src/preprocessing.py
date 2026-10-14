@@ -1,8 +1,3 @@
-"""
-Preprocessing module for the cold-start friend recommendation system.
-Extracts temporal features and creates relevance labels.
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime

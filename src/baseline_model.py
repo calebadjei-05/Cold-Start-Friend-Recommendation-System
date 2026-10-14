@@ -1,8 +1,3 @@
-"""
-Baseline model: Traditional cold-start friend recommendation.
-Treats all contacts equally for cold-start users.
-"""
-
 import numpy as np
 import pandas as pd
 

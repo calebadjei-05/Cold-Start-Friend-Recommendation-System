@@ -1,0 +1,9 @@
+# Failure Log
+
+| Date | Error/problem | Likely cause | Attempted fix | Final resolution | Evidence/commit |
+|---|---|---|---|---|---|
+| 25/08/2026 | Some packages were not recognized when running the program | The program was running in the global Python environment instead of the project's virtual environment | Selected the correct virtual environment for the project | The program recognized the required packages and ran correctly | Commit: Fix Python environment setup |
+| 26/08/2026 | `FileNotFoundError` when loading the dataset | Jupyter notebook was running from the wrong directory, causing incorrect file paths | Checked the working directory and updated the project path setup | Notebook was connected to the correct project folder and data loaded successfully | Commit: Fix dataset loading path |
+| 27/08/2026 | Notebook could not call functions from the scripts folder | The notebook was not importing from the `scripts` and `src` folders correctly | Updated the `sys.path` setup so the notebook could read from the right folders | Notebook successfully called functions from the scripts folder and ran properly | Commit: Fix notebook and script imports |
+| 27/08/2026 | Saving outputs failed because folders did not exist | Some folders, such as `reports/figures`, were missing when the code tried to save | Added code to create missing folders automatically before saving | Folders were created and all outputs saved without errors | Commit: Add folder creation before saving outputs |
+| 05/09/2026 | Relationship score test failed when running `pytest` | The weight values used in the test did not sum to 1, which triggered the assertion check in the score function | Fixed the test to use weights that sum to 1 and re-ran the test | The relationship score test passed after the fix | Commit: Fix relationship score test weights |

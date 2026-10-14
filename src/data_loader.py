@@ -1,8 +1,3 @@
-"""
-Data loading module for the cold-start friend recommendation system.
-Loads raw contact data and prepares it for both baseline and proposed models.
-"""
-
 import os
 import pandas as pd
 import numpy as np
@@ -70,18 +65,7 @@ class DataLoader:
         print(f"Columns: {list(scored_df.columns)}")
     
     def get_data_summary(self, df):
-        """
-        Get summary statistics of the data.
         
-        Parameters:
-        -----------
-        df : pandas.DataFrame
-            Data to summarize
-        
-        Returns:
-        --------
-        dict: Summary statistics
-        """
         summary = {
             'total_rows': len(df),
             'total_columns': len(df.columns),

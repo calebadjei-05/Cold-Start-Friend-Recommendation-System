@@ -1,7 +1,3 @@
-"""
-Evaluation metrics and comparison module for cold-start friend recommendation.
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

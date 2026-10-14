@@ -1,8 +1,3 @@
-"""
-Proposed model: Temporal relationship-strength score for cold-start friend recommendation.
-Ranks contacts based on frequency, recency, and consistency of interaction.
-"""
-
 import numpy as np
 import pandas as pd
 from relationship_score import add_relationship_scores, calculate_relationship_score
