@@ -2,7 +2,7 @@
 
 A research project that tests whether a time-based relationship score can make friend recommendations better for new users.
 
- 
+---
 
 ## What This Project Is About
 
@@ -15,7 +15,7 @@ This project builds two models and compares them:
 
 The goal is to see if the time-based score helps recommend better friends for cold-start users.
 
- 
+---
 
 ## Dataset
 
@@ -28,7 +28,7 @@ The goal is to see if the time-based score helps recommend better friends for co
 
 Place the raw file in the `data/` folder as `raw_contact_data.csv`.
 
- 
+---
 
 ## Folder Structure
 
@@ -73,7 +73,7 @@ cold_start_friend_recommendation/
 └── requirements.txt
 ```
 
- 
+---
 
 ## How to Run the Project
 
@@ -99,6 +99,7 @@ python scripts/run_full_pipeline.py
 ```
 
 This will:
+
 - Load the raw data
 - Extract time-based features
 - Calculate relationship scores
@@ -118,23 +119,23 @@ python -m pytest tests/ -v -s
 jupyter notebook notebooks/full_analysis_pipeline.ipynb
 ```
 
- 
+---
 
 ## Results
 
 | Model | Precision@10 | Recall@10 | Hit Rate@10 |
-| :  | :  | :  | :  |
+| :--- | :--- | :--- | :--- |
 | Baseline | 0.0743 | 0.2850 | 0.4089 |
 | Proposed | 0.1707 | 0.4368 | 0.4615 |
 
 The proposed model did about 130% better on Precision@10.
 
- 
+---
 
 ## Project Files Explained
 
 | File | What it is |
-| :  | :  |
+| :--- | :--- |
 | `README.md` | This file. Explains the project. |
 | `PROJECT_BRIEF.md` | Short summary of the hackathon brief. |
 | `data_card.md` | Info about the dataset. |
@@ -145,7 +146,7 @@ The proposed model did about 130% better on Precision@10.
 | `literature_matrix.md` | Summary of papers read. |
 | `requirements.txt` | Python packages needed. |
 
- 
+---
 
 ## Tech Stack
 
@@ -156,7 +157,7 @@ The proposed model did about 130% better on Precision@10.
 - pytest
 - Jupyter Notebook
 
- 
+---
 
 ## Notes
 
@@ -165,7 +166,7 @@ The proposed model did about 130% better on Precision@10.
 - User IDs are anonymous numbers.
 - The dataset is public and free to use.
 
- 
+---
 
 ## Author
 
